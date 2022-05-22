@@ -1,0 +1,30 @@
+body{
+  /* text-align: center; */
+  background-color: rgb(26, 24, 38);
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+.actual-events{
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-event{
+  display: grid;
+  padding: 1em;
+  margin: 1em 0;
+  grid-template-columns: 60% 25%;
+}
+
+.new-event input{
+  outline: none;
+}
+
+.event-block{
+  padding: 1em 0;
+}
